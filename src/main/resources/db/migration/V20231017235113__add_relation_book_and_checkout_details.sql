@@ -1,0 +1,1 @@
+alter table checkout_details add  book_id bigint  references  book(id) on  delete  cascade;

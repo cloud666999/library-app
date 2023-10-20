@@ -1,0 +1,1 @@
+alter table checkout add  user_id bigint  references  account(id) on  delete  cascade;

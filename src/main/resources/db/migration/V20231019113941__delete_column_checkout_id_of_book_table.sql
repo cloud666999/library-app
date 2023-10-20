@@ -1,0 +1,1 @@
+ALTER TABLE book DROP COLUMN checkout_id;
